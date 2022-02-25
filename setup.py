@@ -12,10 +12,9 @@ setup(
     version='1.0.0',
     description='This package provides utils for Django Rest Framework API views and serializers for limiting fields returned in responses thus limiting size and complexity of database requests.',
     long_description=README,
+    long_description_content_type='text/markdown',
     author='IIIT',
     author_email='github@iiit.pl',
-    long_description=README,
-    long_description_content_type='text/markdown',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
